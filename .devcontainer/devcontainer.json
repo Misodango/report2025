@@ -1,9 +1,0 @@
-{
-  "name": "LaTeX Report",
-  "image": "ghcr.io/bernhardwenzel/latex-devcontainer:latest",
-  "customizations": {
-    "vscode": {
-      "extensions": ["James-Yu.latex-workshop"]
-    }
-  }
-}
