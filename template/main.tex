@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{実験タイトル}
+\author{永松 日月}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{目的}
+ここに実験の目的を書く
+
+\section*{手順}
+ここに手順を書く
+
+\section*{結果}
+ここに結果を書く
+
+% 実験指示書を挿入（例）
+\includepdf[pages=-, pagecommand={}, fitpaper=true]{cover.pdf}
+
+% 評価シートを挿入（例）
+\includepdf[pages=-, pagecommand={}, fitpaper=true]{evaluation.pdf}
+
+\end{document}
