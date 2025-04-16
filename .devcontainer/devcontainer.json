@@ -1,12 +1,13 @@
+// .devcontainer/devcontainer.json
 {
-    "name": "latex-env",
-    "image": "ghcr.io/bernhardwenzel/latex-devcontainer:latest",
-    "customizations": {
-      "vscode": {
-        "extensions": [
-          "James-Yu.latex-workshop"
-        ]
-      }
+  "name": "LaTeX Devcontainer",
+  "image": "ghcr.io/xu-cheng/texlive-full:latest",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop"
+      ]
     }
   }
-  
+}
